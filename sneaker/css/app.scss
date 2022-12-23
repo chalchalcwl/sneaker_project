@@ -1,0 +1,18 @@
+
+$theme-colors : (
+    "primary": hsl(26, 100%, 55%),
+    "secondary" : hsl(25, 100%, 94%),
+        "light" : hsl(223, 64%, 98%)
+);
+$font-family-sans-serif :'Kumbh Sans', sans-serif;
+//$border-radius : 20px;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+
+.img-preview{
+  border-radius: 20px;
+}
+
